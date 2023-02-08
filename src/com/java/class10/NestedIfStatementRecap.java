@@ -6,7 +6,7 @@ public class NestedIfStatementRecap {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         System.out.println("Choose one of them");
-        System.out.println("1. Main Course");
+        System.out.println("1. com.java.class01.Main Course");
         System.out.println("2. Appetizer");
         System.out.println("3. Drinks");
         String choice1 = input.next();
@@ -20,7 +20,7 @@ public class NestedIfStatementRecap {
             } else if (choice2.equalsIgnoreCase("NewYork Ribeye Steak") || choice2.equals("2")) {
                 System.out.println("NewYork Ribeye Steak Ingredients");
             } else {
-                System.out.println("Invalid Main Course Choice");
+                System.out.println("Invalid com.java.class01.Main Course Choice");
             }
         } else if (choice1.equalsIgnoreCase("appetizer") || choice1.equals("2")) {
             System.out.println("Choose one of them");
