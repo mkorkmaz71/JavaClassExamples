@@ -15,5 +15,12 @@ public class ArraysExample {
         }
         System.out.println(listOfData);//memory location
         System.out.println(Arrays.toString(listOfData));//data itself
+
+        int[][] data1= new int[5][2];
+        String str="hay!";
+        String str1="senin";
+        System.out.println(str.concat(str1));
+        str=str.concat(str1);
+        System.out.println(str);
     }
 }
